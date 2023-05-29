@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+    <Button
+            android:id="@+id/NextBtnStart"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" android:layout_marginBottom="60dp"
+            android:onClick="nextWindowStart"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/logoremovebgpreview" android:id="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="28dp"
+            app:layout_constraintHorizontal_bias="0.49"/>
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAYZY"
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="52dp"
+            app:layout_constraintBottom_toTopOf="@+id/NextBtnStart" android:layout_marginBottom="56dp"
+            android:fontFamily="@font/amarante"/>
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAFE"
+            android:textSize="60sp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="52dp" app:layout_constraintBottom_toTopOf="@+id/NextBtnStart"
+            android:layout_marginBottom="32dp" android:fontFamily="@font/amarante"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
